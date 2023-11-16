@@ -12,6 +12,7 @@ const userInputString = prompt(
   const counts= {}
     for (const key of stringArray) {
         counts[key] = counts[key] ? counts [key] + 1 : 1
+        
     }
   
     //An object is used to keep count of how many orders there are of each flavor.
