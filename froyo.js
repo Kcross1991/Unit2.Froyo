@@ -1,3 +1,4 @@
+///The user is prompted for froyo flavors upon entering the website.
 const userInputString = prompt(
     "Please enter flavors (Vanilla,Coffee,Strawberry)separated by commas.",
     "Vaniila,Coffee,Strawberry"
@@ -13,6 +14,8 @@ const userInputString = prompt(
         counts[key] = counts[key] ? counts [key] + 1 : 1
     }
   
+    //An object is used to keep count of how many orders there are of each flavor.
+    //The program correctly counts the number of each flavor in the user's input.
     console.table(counts)
 
 
