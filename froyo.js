@@ -18,22 +18,3 @@ const userInputString = prompt(
     //An object is used to keep count of how many orders there are of each flavor.
     //The program correctly counts the number of each flavor in the user's input.
     console.table(counts)
-
-
-
-
-
- // let Vaniila=0
- // let Strawberry=0
- // let coffee=0
- // while (stringArray) {
- //   if (stringArray == 'vanilla')
-  //  {vanilla++
- //   }
-//if (stringArray=='strawberry')
-  //  {strawberry++
-  //  }
- //  if(stringArray == 'coffee')
-  //  { coffee++
-  // }
- //}
